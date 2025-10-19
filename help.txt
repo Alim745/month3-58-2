@@ -1,0 +1,37 @@
+
+
+Правило установки библотек на Ubuntu:
+    - sudo apt update
+    - sudo apt install ...
+
+
+Проверка версии Python:
+    -Python3 --version
+
+
+Установка Python:
+    - sudo apt install python3-venv
+
+
+Установка доп библотек для venv:
+    - sudo apt install python3-venv
+
+
+Создание venv:
+    - python3 -venv -venv
+
+Активация venv:
+    - for mac/linux - source venv/bin/activate
+    - for windows - venv\Scripts\activate
+
+Деактивация:
+    - deactivate
+
+
+Установка flet на пк:
+    - for linux/windows - pip install flet[all]
+    - fot macos - pip install flet
+
+
+Установка доп библотек:
+    - sudo apt install libmpv1
